@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CImageStitcher headers">
+      <UniqueIdentifier>{f0fb0e25-a1fa-4b2d-956d-ee6e0f70d518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CImageStitcher scource">
+      <UniqueIdentifier>{e5055d0b-7bb2-47cd-9bc7-cdd040bdd37f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageStitcher\CFeatureExtractor.cpp">
+      <Filter>CImageStitcher scource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageStitcher\CFeatureMatcher.cpp">
+      <Filter>CImageStitcher scource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageStitcher\CHomographyFinder.cpp">
+      <Filter>CImageStitcher scource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageStitcher\CImageStitcher.cpp">
+      <Filter>CImageStitcher scource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CImageStitcher\CFeatureExtractor.h">
+      <Filter>CImageStitcher headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageStitcher\CFeatureMatcher.h">
+      <Filter>CImageStitcher headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageStitcher\CHomographyFinder.h">
+      <Filter>CImageStitcher headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageStitcher\CImageStitcher.h">
+      <Filter>CImageStitcher headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CImageStitcher">
+      <UniqueIdentifier>{0d993fa5-1588-4893-b432-f8cd5a443ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CImage">
+      <UniqueIdentifier>{699859f9-8e9a-44f4-91de-5a799936757c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CImageInfo">
+      <UniqueIdentifier>{af2d936a-213a-4852-8b71-d54a99959dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CImageManager">
+      <UniqueIdentifier>{009aad57-25ee-4e4c-a9cc-5a693a6cfd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CImageHomography">
+      <UniqueIdentifier>{18a55124-c5b3-4457-affd-ddf1c5fdb2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CGraphBuilder">
+      <UniqueIdentifier>{a3e06133-61bf-4352-bbd7-00d87743d603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateImages">
+      <UniqueIdentifier>{6cbf158e-2305-4410-bf79-89d9e548541e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMatixTest">
+      <UniqueIdentifier>{efc32f69-397e-48f9-947e-e9aeb0361026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{6ef63e3d-6564-440f-bf2c-0dbef93e4928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CImageHomographyTest">
+      <UniqueIdentifier>{d99bb71f-502e-4e69-8342-5b4b6856cddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CImageStitcher\CFeatureExtractor.h">
+      <Filter>CImageStitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageStitcher\CFeatureMatcher.h">
+      <Filter>CImageStitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageStitcher\CHomographyFinder.h">
+      <Filter>CImageStitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageStitcher\CImageStitcher.h">
+      <Filter>CImageStitcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImage\Image.h">
+      <Filter>CImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageInfo\ImageInfo.h">
+      <Filter>CImageInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageManager\ImageManager.h">
+      <Filter>CImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageHomography\CImageHomography.h">
+      <Filter>CImageHomography</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CImageHomography\CMatrix.h">
+      <Filter>CImageHomography</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CGraphBuilder\CGraphBuilder.h">
+      <Filter>CGraphBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CTestImageCreator.h">
+      <Filter>CreateImages</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatixTest.h">
+      <Filter>CMatixTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageHomographyTest.h">
+      <Filter>CImageHomographyTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CImageStitcher\CFeatureExtractor.cpp">
+      <Filter>CImageStitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageStitcher\CFeatureMatcher.cpp">
+      <Filter>CImageStitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageStitcher\CHomographyFinder.cpp">
+      <Filter>CImageStitcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImage\Image.cpp">
+      <Filter>CImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageInfo\ImageInfo.cpp">
+      <Filter>CImageInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageManager\ImageManager.cpp">
+      <Filter>CImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageHomography\CImageHomography.cpp">
+      <Filter>CImageHomography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CImageHomography\CMatrix.cpp">
+      <Filter>CImageHomography</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CGraphBuilder\CGraphBuilder.cpp">
+      <Filter>CGraphBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphBuilderTest.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestImageCreator.cpp">
+      <Filter>CreateImages</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatixTest.cpp">
+      <Filter>CMatixTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
